@@ -1,0 +1,9 @@
+# Wordpress
+/blog
+
+# Discuz
+/forum
+
+# Vim swap
+*.sw[a-p]
+
