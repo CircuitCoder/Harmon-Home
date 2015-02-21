@@ -213,7 +213,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 990px;
   }
 }
 
@@ -317,7 +317,52 @@ p {
   font-size: 16px;
 }
 
+@media screen and (max-width: 499px) {
+  p {
+    font-size: 12px;
+  }
+  .lead {
+    font-size: 14px;
+  }
+  .page-header {
+    margin-top: 10px;
+  }
+  .page-header > h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
 
-page-header {
+  .switcher-target .inner {
+    padding: 20px;
+  }
+  .masthead-nav > li > a {
+    font-size: 12px;
+  }
+  .masthead-nav > li + li {
+    margin-left:10px;
+  }
+  .switcher-target {
+    padding-top: 100px;
+  }
+  #switcher-target-homepage .inner {
+    margin-top: 20px;
+  }
+  .activity .bottom {
+    display: inline-block !important;
+  }
+  .activity .top {
+    display: none !important;
+  }
+}
+
+.activity .bottom {
+  display: none;
+  float: none;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.page-header {
   font-family: Roboto, Calibri, "幼圆", "微软雅黑";
 }
